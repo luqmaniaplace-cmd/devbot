@@ -1071,7 +1071,10 @@ async function send() {
 
     const res = await fetch(`${ollamaURL}/api/chat`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'ngrok-skip-browser-warning': 'true'
+      },
       body: JSON.stringify({
         model: profile.ollamaModel || 'phi3:mini',
         messages: msgs,
