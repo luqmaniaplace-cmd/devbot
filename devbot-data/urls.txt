@@ -1,0 +1,4 @@
+mdn/content/files/en-us/web/api/index.md
+mdn/content/files/en-us/web/css/index.md
+mdn/content/files/en-us/web/html/index.md
+mdn/content/files/en-us/web/javascript/index.md
